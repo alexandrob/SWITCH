@@ -1,0 +1,11 @@
+
+
+_cmdline-mode on
+y
+Jinhua1920unauthorized
+
+
+backup startup-configuration to <IP_STORAGE> ALTERAR.cfg
+
+
+quit
