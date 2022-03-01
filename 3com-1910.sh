@@ -19,7 +19,7 @@ for HOST in ${HOSTGROUP[@]} ; do
     echo "### BACKUP - $HOST"
     echo ""
     sleep 2
-    $SSHPASS -p $PASS $SSH -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o KexAlgorithms=$KEX -c $CIPHER $USER@$HOST < commands3com.txt
+    $SSHPASS -p $PASS $SSH -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o KexAlgorithms=$KEX -c $CIPHER $USER@$HOST < commands3com1910.txt
     sleep 5
     $MV $PATH01/ALTERAR.cfg $PATH01/$HOST-$DATE-startup-config.cfg
     echo ""

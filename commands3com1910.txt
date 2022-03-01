@@ -1,0 +1,11 @@
+
+
+_cmdline-mode on
+y
+512900
+
+
+tftp <IP_STORAGE> put startup.cfg ALTERAR.cfg
+
+
+quit
